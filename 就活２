@@ -1,0 +1,15 @@
+/*18083NHU　久野明日菜*/
+#include<stdio.h>
+main()
+{
+	int year = 0;
+	float deposit = 10000;
+
+	while (deposit < 15000) 
+	{
+		deposit = deposit*1.01;
+		year++;
+		printf("%d年目:%.1f円\n", year, deposit);
+	}
+	printf("%d年で%.1f円となり15000円を超える\n", year, deposit);
+}
